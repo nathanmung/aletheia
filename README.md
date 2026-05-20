@@ -1,10 +1,10 @@
 # Aletheia: The First-Principles AI
 
-Aletheia is a suite of tools structured around Google gemini-cli and the Model Context Protocol (MCP). Designed as an ecosystem, Aletheia aims to build a semi-autonomous (and eventually fully autonomous) AI assistant capable of reasoning, acting, and querying complex data with surgical precision.
+Aletheia is a suite of tools structured around Google Antigravity CLI and the Model Context Protocol (MCP). Designed as an ecosystem, Aletheia aims to build a semi-autonomous (and eventually fully autonomous) AI assistant capable of reasoning, acting, and querying complex data with surgical precision.
 
 # Vision & Philosophy
 
-Aletheia's goal is to drastically reduce the friction between a complex question and the truth. By combining advanced LLM capabilities with knowledge bases and real-time APIs, the system acts as a personal "Jarvis.". The architecture is designed according to first principles: modular, surface-agnostic, yet deeply integrated, with absolute respect for data security and privacy 
+Aletheia's goal is to drastically reduce the friction between a complex question and the truth. By combining advanced LLM capabilities with knowledge bases and real-time APIs, the system acts as a personal "Jarvis". The architecture is designed according to first principles: modular, OS-agnostic, yet deeply integrated, with absolute respect for data security and privacy 
 
 # Features & Integrations (Skills & MCP Servers)
 
@@ -24,6 +24,18 @@ Aletheia integrates a network of diverse tools to provide high-quality contextua
 * Skill "Last 30 Days": Real-time aggregation and analysis, includes a lot of things, but for now only Reddit and Hacker News work well.
 * Polymarket MCP Server: Access to predictive markets to assess the probabilities of future events based on collective intelligence.
 * Data Commons: Querying raw macroeconomic data (GDP, inflation, demographics, life expectancy) to support reasoning with real facts.
+* WhatsApp, Apple Messages (iMessage & SMS), Slack, Discord, Signal, Telegram
+
+### You will find links to all GitHub repositories in links.md so you can install it on your own device. 
+### I will upload tutorials to install everything that is needed besides what is already on GitHub. 
+
+# Automations :
+
+First we connect the data sources. However the magic is not yet fully developped. Now we need to automate data retrieval and exploitation. 
+
+### Social media, news, macro data and markets
+
+- Last 30 Days : the script automates the fetch for one source that you need to write in the terminal after launching the script. For now it just loops an Antigravity CLI then prompts it until the markdown file with the data is written. Only works on macOS for now, the script will be available on Linux and Windows very soon. You will be able to loop over a list of topics also. More options are in development.
 
 # Roadmap
 
